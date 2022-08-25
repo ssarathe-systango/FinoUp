@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01619C6728B4E511009DFB40 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01619C6628B4E511009DFB40 /* secondViewController.swift */; };
-		01619C6928B5023E009DFB40 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01619C6828B5023E009DFB40 /* CollectionViewCell.swift */; };
+		014842E928B73E5A006F11EC /* HomeViewControllerUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014842E828B73E5A006F11EC /* HomeViewControllerUpdated.swift */; };
+		014842F028B7482C006F11EC /* CollectionViewCellUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014842EE28B7482C006F11EC /* CollectionViewCellUpdated.swift */; };
+		014842F128B7482C006F11EC /* CollectionViewCellUpdated.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014842EF28B7482C006F11EC /* CollectionViewCellUpdated.xib */; };
+		014842FA28B755C9006F11EC /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014842F828B755C9006F11EC /* MainTableViewCell.swift */; };
+		014842FB28B755C9006F11EC /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014842F928B755C9006F11EC /* MainTableViewCell.xib */; };
+		015A23E728B64BB100ED057A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015A23E528B64BB100ED057A /* TableViewCell.swift */; };
+		015A23E828B64BB100ED057A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 015A23E628B64BB100ED057A /* TableViewCell.xib */; };
+		0163FAC028B6137300FB5C5D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0163FABF28B6137300FB5C5D /* UIColorExtension.swift */; };
 		018F929828B3BDC400D94883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F929728B3BDC400D94883 /* AppDelegate.swift */; };
 		018F929A28B3BDC400D94883 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F929928B3BDC400D94883 /* SceneDelegate.swift */; };
 		018F929C28B3BDC400D94883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F929B28B3BDC400D94883 /* ViewController.swift */; };
@@ -36,8 +42,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01619C6628B4E511009DFB40 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
-		01619C6828B5023E009DFB40 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		014842E828B73E5A006F11EC /* HomeViewControllerUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerUpdated.swift; sourceTree = "<group>"; };
+		014842EE28B7482C006F11EC /* CollectionViewCellUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellUpdated.swift; sourceTree = "<group>"; };
+		014842EF28B7482C006F11EC /* CollectionViewCellUpdated.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCellUpdated.xib; sourceTree = "<group>"; };
+		014842F828B755C9006F11EC /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		014842F928B755C9006F11EC /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		015A23E528B64BB100ED057A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		015A23E628B64BB100ED057A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		0163FABF28B6137300FB5C5D /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor\U0010Extension.swift"; sourceTree = "<group>"; };
 		018F929428B3BDC400D94883 /* FinoUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinoUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018F929728B3BDC400D94883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		018F929928B3BDC400D94883 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +89,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014842F228B754A8006F11EC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				014842F328B754DA006F11EC /* HomeViewController */,
+				014842E828B73E5A006F11EC /* HomeViewControllerUpdated.swift */,
+				018F929B28B3BDC400D94883 /* ViewController.swift */,
+			);
+			path = "View\U0010Controllers";
+			sourceTree = "<group>";
+		};
+		014842F328B754DA006F11EC /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				014842F428B754E7006F11EC /* Cells */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		014842F428B754E7006F11EC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				015A23E628B64BB100ED057A /* TableViewCell.xib */,
+				015A23E528B64BB100ED057A /* TableViewCell.swift */,
+				014842EF28B7482C006F11EC /* CollectionViewCellUpdated.xib */,
+				014842EE28B7482C006F11EC /* CollectionViewCellUpdated.swift */,
+				014842F828B755C9006F11EC /* MainTableViewCell.swift */,
+				014842F928B755C9006F11EC /* MainTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		014842F528B75510006F11EC /* AppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				018F929928B3BDC400D94883 /* SceneDelegate.swift */,
+				018F929728B3BDC400D94883 /* AppDelegate.swift */,
+			);
+			path = AppLifeCycle;
+			sourceTree = "<group>";
+		};
+		014842F628B75538006F11EC /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				018F92A228B3BDC700D94883 /* LaunchScreen.storyboard */,
+				018F929D28B3BDC400D94883 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		014842F728B75558006F11EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0163FABF28B6137300FB5C5D /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		018F928B28B3BDC400D94883 = {
 			isa = PBXGroup;
 			children = (
@@ -96,16 +165,13 @@
 		018F929628B3BDC400D94883 /* FinoUp */ = {
 			isa = PBXGroup;
 			children = (
-				01ADB6A028B3C7F000D5CADC /* Fonts */,
-				018F929728B3BDC400D94883 /* AppDelegate.swift */,
-				018F929928B3BDC400D94883 /* SceneDelegate.swift */,
-				018F929B28B3BDC400D94883 /* ViewController.swift */,
-				01619C6628B4E511009DFB40 /* secondViewController.swift */,
-				018F929D28B3BDC400D94883 /* Main.storyboard */,
-				01619C6828B5023E009DFB40 /* CollectionViewCell.swift */,
-				018F92A028B3BDC700D94883 /* Assets.xcassets */,
-				018F92A228B3BDC700D94883 /* LaunchScreen.storyboard */,
+				014842F728B75558006F11EC /* Extensions */,
+				014842F628B75538006F11EC /* StoryBoards */,
+				014842F528B75510006F11EC /* AppLifeCycle */,
+				014842F228B754A8006F11EC /* ViewControllers */,
 				018F92A528B3BDC700D94883 /* Info.plist */,
+				01ADB6A028B3C7F000D5CADC /* Fonts */,
+				018F92A028B3BDC700D94883 /* Assets.xcassets */,
 			);
 			path = FinoUp;
 			sourceTree = "<group>";
@@ -194,10 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				01ADB6C028B3C81000D5CADC /* Montserrat-ExtraBold.ttf in Resources */,
+				015A23E828B64BB100ED057A /* TableViewCell.xib in Resources */,
 				01ADB6BD28B3C81000D5CADC /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				01ADB6B928B3C81000D5CADC /* Montserrat-Bold.ttf in Resources */,
 				01ADB6BA28B3C81000D5CADC /* Montserrat-Regular.ttf in Resources */,
 				01ADB6B428B3C81000D5CADC /* Montserrat-Light.ttf in Resources */,
+				014842FB28B755C9006F11EC /* MainTableViewCell.xib in Resources */,
+				014842F128B7482C006F11EC /* CollectionViewCellUpdated.xib in Resources */,
 				01ADB6B628B3C81000D5CADC /* Montserrat-BoldItalic.ttf in Resources */,
 				018F92A428B3BDC700D94883 /* LaunchScreen.storyboard in Resources */,
 				01ADB6B728B3C81000D5CADC /* Montserrat-Italic.ttf in Resources */,
@@ -224,11 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01619C6928B5023E009DFB40 /* CollectionViewCell.swift in Sources */,
-				01619C6728B4E511009DFB40 /* secondViewController.swift in Sources */,
+				014842E928B73E5A006F11EC /* HomeViewControllerUpdated.swift in Sources */,
+				0163FAC028B6137300FB5C5D /* UIColorExtension.swift in Sources */,
 				018F929C28B3BDC400D94883 /* ViewController.swift in Sources */,
+				014842FA28B755C9006F11EC /* MainTableViewCell.swift in Sources */,
 				018F929828B3BDC400D94883 /* AppDelegate.swift in Sources */,
 				018F929A28B3BDC400D94883 /* SceneDelegate.swift in Sources */,
+				015A23E728B64BB100ED057A /* TableViewCell.swift in Sources */,
+				014842F028B7482C006F11EC /* CollectionViewCellUpdated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Finance App/Info.plist";
+				INFOPLIST_FILE = FinoUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -389,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.systango.Finance-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.systango.FinoUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -405,7 +477,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Finance App/Info.plist";
+				INFOPLIST_FILE = FinoUp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -416,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.systango.Finance-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.systango.FinoUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

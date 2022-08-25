@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
 extension ViewController {
     func navigationController() {
-        let move = storyboard?.instantiateViewController(withIdentifier: "secondViewController") as! secondViewController
+        let move = storyboard?.instantiateViewController(withIdentifier: "HomeViewControllerUpdated") as! HomeViewControllerUpdated
         navigationController?.pushViewController(move, animated: true)
     }
 }

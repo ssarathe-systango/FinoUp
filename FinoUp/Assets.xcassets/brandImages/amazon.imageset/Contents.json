@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "city.jpeg",
+      "filename" : "Amazon_icon.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "city-1.jpeg",
+      "filename" : "Amazon_icon-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "city-2.jpeg",
+      "filename" : "Amazon_icon-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
