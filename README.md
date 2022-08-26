@@ -1,2 +1,2 @@
 # FinoUp
-Demo Application
+Demo Application For Designing Purpose
