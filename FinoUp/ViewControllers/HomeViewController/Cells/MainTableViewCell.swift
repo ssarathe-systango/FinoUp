@@ -14,19 +14,18 @@ class MainTableViewCell: UITableViewCell {
     
     static let identifier = "MainTableViewCell"
     
+    //MARK: OUTLETS
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         collectionViewSetup()
-        initialSetup()
-    }
-    
-    //MARK: FLOW LAYOUT SETUP
-    private func initialSetup() {
-        let flowLayout = UICollectionViewFlowLayout()
-        flowLayout.scrollDirection = .horizontal
-        collectionView.collectionViewLayout = flowLayout
+        collectionView.layer.shadowColor = UIColor.black.cgColor
+        collectionView.layer.shadowOffset = CGSize(width: 10.0, height: 10.0)
+        collectionView.layer.shadowRadius = 10.5
+        collectionView.layer.shadowOpacity = 10.0
+        collectionView.layer.cornerRadius = 25
+        collectionView.layer.masksToBounds = true
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -34,6 +33,7 @@ class MainTableViewCell: UITableViewCell {
     }
 }
 
+//MARK: COLLECTION VIEW SETUP
 extension MainTableViewCell {
     func collectionViewSetup() {
         collectionView.delegate = self
@@ -42,6 +42,7 @@ extension MainTableViewCell {
     }
 }
 
+//MARK: COLLECTION VIEW METHODS
 extension MainTableViewCell: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -56,16 +57,11 @@ extension MainTableViewCell: UICollectionViewDataSource, UICollectionViewDelegat
         cell.lblPrice.text = "$45.567"
         cell.lblNumber.text = "0345"
         cell.lblNumber.textColor = UIColor.lightGray
-        cell.layer.shadowColor = UIColor.black.cgColor
-        cell.layer.shadowOffset = CGSize(width: 5.0, height: 5.0)
-        cell.layer.shadowRadius = 5.0
-        cell.layer.shadowOpacity = 10.0
-        cell.layer.cornerRadius = 25
-        cell.layer.masksToBounds = false
         return cell
     }
 }
 
+//MARK: COLLECTION VIEW FLOW LAYOUT
 extension MainTableViewCell: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

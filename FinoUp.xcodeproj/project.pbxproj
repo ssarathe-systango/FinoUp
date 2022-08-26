@@ -12,6 +12,8 @@
 		014842F128B7482C006F11EC /* CollectionViewCellUpdated.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014842EF28B7482C006F11EC /* CollectionViewCellUpdated.xib */; };
 		014842FA28B755C9006F11EC /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014842F828B755C9006F11EC /* MainTableViewCell.swift */; };
 		014842FB28B755C9006F11EC /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014842F928B755C9006F11EC /* MainTableViewCell.xib */; };
+		0155AB8328B86247000C9EAC /* UserLIstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155AB8128B86247000C9EAC /* UserLIstCell.swift */; };
+		0155AB8428B86247000C9EAC /* UserLIstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0155AB8228B86247000C9EAC /* UserLIstCell.xib */; };
 		015A23E728B64BB100ED057A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015A23E528B64BB100ED057A /* TableViewCell.swift */; };
 		015A23E828B64BB100ED057A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 015A23E628B64BB100ED057A /* TableViewCell.xib */; };
 		0163FAC028B6137300FB5C5D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0163FABF28B6137300FB5C5D /* UIColorExtension.swift */; };
@@ -47,6 +49,8 @@
 		014842EF28B7482C006F11EC /* CollectionViewCellUpdated.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCellUpdated.xib; sourceTree = "<group>"; };
 		014842F828B755C9006F11EC /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		014842F928B755C9006F11EC /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		0155AB8128B86247000C9EAC /* UserLIstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLIstCell.swift; sourceTree = "<group>"; };
+		0155AB8228B86247000C9EAC /* UserLIstCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserLIstCell.xib; sourceTree = "<group>"; };
 		015A23E528B64BB100ED057A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		015A23E628B64BB100ED057A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		0163FABF28B6137300FB5C5D /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor\U0010Extension.swift"; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				014842EE28B7482C006F11EC /* CollectionViewCellUpdated.swift */,
 				014842F828B755C9006F11EC /* MainTableViewCell.swift */,
 				014842F928B755C9006F11EC /* MainTableViewCell.xib */,
+				0155AB8128B86247000C9EAC /* UserLIstCell.swift */,
+				0155AB8228B86247000C9EAC /* UserLIstCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 				01ADB6B928B3C81000D5CADC /* Montserrat-Bold.ttf in Resources */,
 				01ADB6BA28B3C81000D5CADC /* Montserrat-Regular.ttf in Resources */,
 				01ADB6B428B3C81000D5CADC /* Montserrat-Light.ttf in Resources */,
+				0155AB8428B86247000C9EAC /* UserLIstCell.xib in Resources */,
 				014842FB28B755C9006F11EC /* MainTableViewCell.xib in Resources */,
 				014842F128B7482C006F11EC /* CollectionViewCellUpdated.xib in Resources */,
 				01ADB6B628B3C81000D5CADC /* Montserrat-BoldItalic.ttf in Resources */,
@@ -297,6 +304,7 @@
 				0163FAC028B6137300FB5C5D /* UIColorExtension.swift in Sources */,
 				018F929C28B3BDC400D94883 /* ViewController.swift in Sources */,
 				014842FA28B755C9006F11EC /* MainTableViewCell.swift in Sources */,
+				0155AB8328B86247000C9EAC /* UserLIstCell.swift in Sources */,
 				018F929828B3BDC400D94883 /* AppDelegate.swift in Sources */,
 				018F929A28B3BDC400D94883 /* SceneDelegate.swift in Sources */,
 				015A23E728B64BB100ED057A /* TableViewCell.swift in Sources */,

@@ -32,12 +32,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="1UD-V4-uHz">
-                                <rect key="frame" x="10" y="61" width="318" height="800"/>
+                                <rect key="frame" x="0.0" y="61" width="338" height="800"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="800" id="kRw-77-RHc"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hH8-Df-cso">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hH8-Df-cso">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -50,9 +50,9 @@
                             <constraint firstAttribute="bottom" secondItem="1UD-V4-uHz" secondAttribute="bottom" constant="10" id="8Vj-Jd-4gf"/>
                             <constraint firstAttribute="trailing" secondItem="kPI-3r-iQz" secondAttribute="trailing" constant="10" id="CWb-h1-Bmj"/>
                             <constraint firstItem="1UD-V4-uHz" firstAttribute="top" secondItem="kPI-3r-iQz" secondAttribute="bottom" constant="20" id="F4f-gz-Jsq"/>
-                            <constraint firstItem="1UD-V4-uHz" firstAttribute="leading" secondItem="IKF-Xe-nTy" secondAttribute="leading" constant="10" id="JF1-qy-iSG"/>
+                            <constraint firstItem="1UD-V4-uHz" firstAttribute="leading" secondItem="IKF-Xe-nTy" secondAttribute="leading" id="JF1-qy-iSG"/>
                             <constraint firstItem="kPI-3r-iQz" firstAttribute="top" secondItem="IKF-Xe-nTy" secondAttribute="top" constant="10" id="eps-zF-CkV"/>
-                            <constraint firstAttribute="trailing" secondItem="1UD-V4-uHz" secondAttribute="trailing" constant="10" id="gak-lt-Jda"/>
+                            <constraint firstAttribute="trailing" secondItem="1UD-V4-uHz" secondAttribute="trailing" id="gak-lt-Jda"/>
                             <constraint firstItem="kPI-3r-iQz" firstAttribute="leading" secondItem="IKF-Xe-nTy" secondAttribute="leading" constant="10" id="tPy-0o-C6M"/>
                         </constraints>
                     </view>

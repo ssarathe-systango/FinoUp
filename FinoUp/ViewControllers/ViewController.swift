@@ -13,11 +13,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    //MARK: ACTION
     @IBAction func getStartedBtn(_ sender: Any) {
         navigationController()
     }
 }
 
+// MARK: NAVIGATION CONTROLLER
 extension ViewController {
     func navigationController() {
         let move = storyboard?.instantiateViewController(withIdentifier: "HomeViewControllerUpdated") as! HomeViewControllerUpdated

@@ -16,5 +16,12 @@ class CollectionViewCellUpdated: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOffset = CGSize(width: 0, height: -3)
+        self.layer.shadowRadius = 10
+        self.layer.shadowOpacity = 0.5
+        self.layer.cornerRadius = 25
+        self.layer.masksToBounds = false
     }
 }
